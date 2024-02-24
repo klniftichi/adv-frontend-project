@@ -1,0 +1,67 @@
+.home-title {
+    margin-left: 35px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+    text-align: center;
+}
+
+.page-intro-home{
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 45px;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+
+.testimonial-list{
+    align-items: center;
+    width: 75%;
+    margin-left: 200px;
+    /* margin-top: 60px; */
+    margin-bottom: 20px;
+    border-bottom: 5px solid #1b1918;
+    border-radius: 20px;
+    border-top: 5px solid #1b1918;
+    padding-top: 5px;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+.testimonial-info {
+    margin-left: 30px;
+}
+
+.testimonial-name{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.testimonial-text{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.contact-list{
+    margin-left:-1%;
+    margin-right:-1%;
+    margin-bottom: -1%;
+    height: 270px;
+    background-color: #1b1918;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+
+.contact-title{
+    margin-left: 40px;
+    padding-top: 30px;
+    color: white;
+}
+.contact-elements{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 10px;
+    color: white;
+}

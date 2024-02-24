@@ -1,0 +1,51 @@
+.coaches-title {
+    margin-left: 35px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+    text-align: center;
+}
+.page-intro{
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 45px;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+
+.coach-image{
+    width: 270px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.coaches-div{
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+
+}
+.coaches-list{
+    display:flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-bottom: 10px solid #1b1918;
+    border-radius: 20px;
+    border-top: 10px solid #1b1918;
+    padding-top: 5px;
+}
+
+.coach-info {
+    margin-left: 30px;
+}
+.coach-name {
+    font-size: 30px;
+}
+.coach-about {
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}

@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App-auth {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+  background-color: #b6b6b6;
+  /* background-image: url("clouds.png"); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+}
+
+.auth-form-container-login, .auth-form-container-register, .login-form, .register-form, .recover-form {
+  display: flex;
+  flex-direction: column;
+}
+
+ .auth-form-container-login{
+  width: 300px;
+  height: 500px;
+  position: relative;
+  /* left: -70px; */
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgba(148, 148, 148, 0.334);
+  box-shadow: 5px 5px 1px rgba(148, 148, 148, 0.334);
+}  
+
+
+.auth-form-container-register{
+  width: 300px;
+  height: 650px;
+  position: relative;
+  /* left: -70px; */
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgba(148, 148, 148, 0.334);
+  box-shadow: 5px 5px 1px rgba(148, 148, 148, 0.334);
+}  
+
+
+.login-form {
+  position: relative;
+  top: -20px;
+}
+
+.register-form {
+  position: relative;
+  top: -20px;
+}
+
+.div-login {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap :7rem;
+}
+
+.div-register {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap :7rem;
+}
+
+
+@media screen and (min-width: 600px) {
+  .auth-form-container-login {
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 2rem;
+  }
+
+  .auth-form-container-register {
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 2rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  position: relative;
+}
+.tablee{
+  border-collapse: collapse;
+  max-width: 500px;
+}
+.input-login {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 10px;
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+
+}
+
+.input-register {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 10px;
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+  color: #000000;
+  text-decoration:bold;
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+
+}
+
+
+.link-btn-login {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  position: relative;
+  top: -2px;
+  border:none;
+  font-style: italic;
+  font-size: 17px;
+} 
+
+.link-btn-register {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  position: relative;
+  top: 26px;
+  border:none;
+  font-style: italic;
+  font-size: 17px;
+} 
+
+.link-btn-recover {
+  background: none;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  position: relative;
+  top: -20px;
+  border:none;
+  font-style: italic;
+  font-size: 17px;
+} 
+
+
+.login-btn {
+  background-color: #6a6969;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.register-btn {
+  background-color: #6a6969;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 10px;
+  
+}
+
+.reading {
+  position: sticky;
+  top: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+.title {
+  position: fixed;
+  top: 470px;
+  color: rgb(35, 35, 49);
+  font-size: 70px;
+  text-align: center;
+  margin-left: 1px;;
+}
+
+.welcome-text{
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(48, 44, 67);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tablee{
+  min-width: 1000px;
+  margin-top: 30px;
+  margin-left: 300px;
+  background-color: wheat;
+  border-style:groove;
+  border-width: 3px;
+  border-color: rgb(0, 0, 0);
+}
+
+.columnn{
+  margin-right: 100px;
+}
+
+.error {
+  background-color: #f0d5e476;
+  color: rgb(211, 56, 56);
+  border: 0.5px solid black; 
+  border-radius: 4px;
+}
+
